@@ -1,0 +1,14 @@
+cd /d
+cd folder name
+type "ls" it will shows the list of directory.
+
+
+git config --global user.name "Name"
+
+git clone(repository path url)
+cd divahargit( repository name)
+git add filename
+git status
+git commit -m "commit msg" filename
+git push -u origin master
+if ur need to modify the file content, just modify what ever u want and then again use commit and push command in the cmd prompt.
