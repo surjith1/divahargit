@@ -43,3 +43,5 @@ git reset HEAD <file>
 
 Unmodifying to modifying:
 git checlout -- file name
+
+Git Aliases
