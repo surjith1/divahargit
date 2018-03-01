@@ -12,3 +12,34 @@ git status
 git commit -m "commit msg" filename
 git push -u origin master
 if ur need to modify the file content, just modify what ever u want and then again use commit and push command in the cmd prompt.
+
+to know what u have staged:
+git diff -- staged
+skiping stagging area:
+add "-a" along with commit command
+git commit -a -m "commit msg" file name
+
+Discarded changes:
+git checlout file_name
+Remocing file:
+git rm
+
+moving files
+git mv file_from fil_to
+
+To get Git Output:
+git log
+git log --start	: it shows list of modified files 
+git log -- pretty= oneline
+					start	
+					full
+					fuller
+					
+Undoing ThingsL
+git commit --amend
+
+staged file to unstaged :
+git reset HEAD <file>
+
+Unmodifying to modifying:
+git checlout -- file name
